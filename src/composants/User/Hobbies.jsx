@@ -1,15 +1,38 @@
+export default function Hobbies() {
+  const hobbiesFromDB= [
+    {
+      id: "12345",
+      nom: "Cooking"
+    },
 
-const Hobbies = () => {
-  const hobbies = ['Cooking', 'Dancing'];
+    {
+      id: "2469",
+      nom: "Dancing"
+    }, 
 
+    {
+      id: "12567345",
+      nom: "Travelling"
+    }
+  ];
   return (
-    <div>
-      <h5>Hobbies</h5>
-      <ul>
-      <li> my hobbies are: </li>
-      </ul>
-    </div>
-  );
-};
+    <ul>
+      {hobbiesFromDB.map((hobby) => {
+        return (
+          <li 
+          key={hobby.id}
+          style={{
+          padding: "10px",
+          border: "1px solid blue",
+          margin: "0.5em"
+        }}> 
+          {hobby.nom}
+        </li>)
+      })}
+    </ul>
+  )
+}
 
-export default Hobbies;
+ 
+
+  

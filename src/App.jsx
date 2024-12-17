@@ -3,7 +3,7 @@ import  Header  from './composants/containers/Header/Header';
 import Footer  from './composants/containers/Footer/Footer';
 import Bouton from './composants/ui/Bouton/Bouton';
 import User from './composants/User/User';
-import './App.css'
+import "./index.css";
 
 
 // un composant react
