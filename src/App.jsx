@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import  Header  from './composants/containers/Header/Header';
 import Footer  from './composants/containers/Footer/Footer';
 import Bouton from './composants/ui/Bouton/Bouton';
+import User from './composants/User/User';
 import './App.css'
 
 
@@ -27,6 +28,7 @@ function App() {
 
       <div>
          <Header />
+         <User />
          <Footer />
          <Bouton />
 
