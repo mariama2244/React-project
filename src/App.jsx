@@ -4,6 +4,7 @@ import Footer  from './composants/containers/Footer/Footer';
 import Bouton from './composants/ui/Bouton/Bouton';
 import User from './composants/User/User';
 import "./index.css";
+import Player from './composants/Player/Player';
 
 
 // un composant react
@@ -31,6 +32,7 @@ function App() {
          <User />
          <Footer />
          <Bouton />
+         <Player />
 
       </div>
       
