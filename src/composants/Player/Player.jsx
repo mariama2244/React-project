@@ -1,17 +1,16 @@
+const win_score = 100
+
 export default function Player() {
 
-    const score = 25;
-
-    let result;
-  if (score >= 25) {
-    result = <h3>Vainqueur  avec un score de {score}</h3>;
-  } else {
-    result = <h3>Perdant avec un score de {score}</h3>;
-  }
+    const score = 500;
+    const estGagnant = score >= win_score
     return (
-        <div>
-      <h2>Composant Player</h2>
-      {result}
-    </div>
+        <section style={{ padding: "0.7em", border: "1px solid while"}}>
+            <h2>Player score</h2>
+            <p style={{ color: estGagnant ? "pink" : "red"}}></p>
+        </section>
     )
-}
+
+
+  }
+    

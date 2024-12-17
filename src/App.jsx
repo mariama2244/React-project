@@ -17,7 +17,7 @@ function App() {
   //   return <button style={{ backgroundColor: couleur }}>{label}</button>
   // }
 
-  const texte = "I am a paragraph.";
+  // const texte = "I am a paragraph.";
 
 
 
@@ -29,9 +29,16 @@ function App() {
 
       <div>
          <Header />
+         <Bouton couleur={'green'}>
+          <p>Add</p>
+         </Bouton>
+
+         <Bouton couleur={'red'}>
+          <p>Delete</p>
+         </Bouton>
+
          <User />
          <Footer />
-         <Bouton />
          <Player />
 
       </div>
