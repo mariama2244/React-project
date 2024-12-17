@@ -1,8 +1,8 @@
 export function Footer() {
     return (
         <footer>
-            <h1>footer links</h1>
-            <p>  &copy; Protel  - Made with ❤️ by</p>
+            <h5>footer links</h5>
+            <p>  copyright 2024 - Made with ❤️ by</p>
         </footer>
     )
 }
