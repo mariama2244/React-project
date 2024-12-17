@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
-import { Header } from './composants/containers/Header/Header';
-import { Footer } from './composants/containers/Footer/Footer';
+import  Header  from './composants/containers/Header/Header';
+import Footer  from './composants/containers/Footer/Footer';
+import Bouton from './composants/ui/Bouton/Bouton';
 import './App.css'
+
 
 // un composant react
 function App() {
@@ -26,6 +28,7 @@ function App() {
       <div>
          <Header />
          <Footer />
+         <Bouton />
 
       </div>
       
