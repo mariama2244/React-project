@@ -8,6 +8,7 @@ import Player from './composants/Player/Player';
 import Routine from './composants/Routine/Routine';
 import Compteur from './composants/containers/Compteur/Compteur';
 import Menu from './composants/containers/Menu/Menu';
+import ContactForm from './composants/containers/ContactForm/ContactForm';
 
 
 
@@ -45,6 +46,7 @@ function App() {
 
       <div>
          <Header />
+         <ContactForm />
          <Bouton couleur={'green'} gereClique={ajoute}>
           <p>Add</p>
          </Bouton>
@@ -61,6 +63,7 @@ function App() {
           <Routine />
           <Compteur />
           <Menu />
+      
          <Footer />
          <Player />
 
