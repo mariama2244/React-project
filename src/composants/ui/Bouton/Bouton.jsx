@@ -18,7 +18,7 @@ export default function Bouton({ couleur, children, gereClique }) {
         // }}
         onClick={gereClique}
         className="b-none p-2 rounded hover:opacity-75 transition"
-        style={{ backgroundColor: couleur ?  couleur : "green" }}>
+        style={{ backgroundColor: couleur ?  couleur : "orange", padding: '10px 20px', margin: '5px' }}>
         {children}
         </button>
     )

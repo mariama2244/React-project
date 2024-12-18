@@ -6,6 +6,7 @@ import User from './composants/User/User';
 import "./index.css";
 import Player from './composants/Player/Player';
 import Routine from './composants/Routine/Routine';
+import Compteur from './composants/containers/Compteur/Compteur';
 
 
 
@@ -57,6 +58,7 @@ function App() {
           age={31}
           hobbies={hobbies} />
           <Routine />
+          <Compteur />
          <Footer />
          <Player />
 
