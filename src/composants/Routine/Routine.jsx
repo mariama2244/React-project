@@ -5,9 +5,9 @@ export default function Routine() {
     const study = () => alert("Did you study today !");
     return(
         <div>
-       <button onClick={eat}>Manger</button>
-       <button onClick={sleep}>Dormir</button>
-       <button onClick={study}>Étudier</button>
+       <button onClick={eat} style={{padding: '10px 20px', margin: '5px', cursor: 'pointer', backgroundColor: 'pink'}}>Manger</button>
+       <button onClick={sleep} style={{padding: '10px 20px', margin: '5px', cursor: 'pointer', backgroundColor: 'pink'}}>Dormir</button>
+       <button onClick={study} style={{padding: '10px 20px', margin: '5px', cursor: 'pointer', backgroundColor: 'pink'}}>Étudier</button>
     
         </div>
     )
