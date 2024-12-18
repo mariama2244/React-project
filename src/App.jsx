@@ -5,6 +5,7 @@ import Bouton from './composants/ui/Bouton/Bouton';
 import User from './composants/User/User';
 import "./index.css";
 import Player from './composants/Player/Player';
+import Routine from './composants/Routine/Routine';
 
 
 
@@ -55,6 +56,7 @@ function App() {
           lastName="Tunkara"
           age={31}
           hobbies={hobbies} />
+          <Routine />
          <Footer />
          <Player />
 
