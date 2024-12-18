@@ -7,6 +7,7 @@ import "./index.css";
 import Player from './composants/Player/Player';
 import Routine from './composants/Routine/Routine';
 import Compteur from './composants/containers/Compteur/Compteur';
+import Menu from './composants/containers/Menu/Menu';
 
 
 
@@ -59,6 +60,7 @@ function App() {
           hobbies={hobbies} />
           <Routine />
           <Compteur />
+          <Menu />
          <Footer />
          <Player />
 
