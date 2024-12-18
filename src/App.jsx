@@ -7,6 +7,7 @@ import "./index.css";
 import Player from './composants/Player/Player';
 
 
+
 // un composant react
 function App() {
 
@@ -19,6 +20,9 @@ function App() {
 
   // const texte = "I am a paragraph.";
 
+  const hobbies = ['Dancing', 'Travelling', 'Cooking'];
+
+ 
 
 
   return (
@@ -37,7 +41,11 @@ function App() {
           <p>Delete</p>
          </Bouton>
 
-         <User />
+         <User
+          firstName="Mariama"
+          lastName="Tunkara"
+          age={31}
+          hobbies={hobbies} />
          <Footer />
          <Player />
 
