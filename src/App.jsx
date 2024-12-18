@@ -22,6 +22,15 @@ function App() {
 
   const hobbies = ['Dancing', 'Travelling', 'Cooking'];
 
+  function ajoute() {
+    alert('Add')
+  }
+
+  function supprimer() {
+    alert('Delete')
+  }
+
+
  
 
 
@@ -33,11 +42,11 @@ function App() {
 
       <div>
          <Header />
-         <Bouton couleur={'green'}>
+         <Bouton couleur={'green'} gereClique={ajoute}>
           <p>Add</p>
          </Bouton>
 
-         <Bouton couleur={'red'}>
+         <Bouton couleur={'red'} gereClique={supprimer}>
           <p>Delete</p>
          </Bouton>
 

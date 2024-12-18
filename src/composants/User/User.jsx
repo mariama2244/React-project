@@ -1,9 +1,5 @@
 import PropTypes from 'prop-types'
 
-
-
-
-
 export default  function User(props) {
 
   const { firstName, lastName, age, hobbies } = props;
